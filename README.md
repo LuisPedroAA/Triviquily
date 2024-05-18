@@ -1,2 +1,2 @@
-# TrendTrackr-wip
+# Triviquily
 Senior Project
