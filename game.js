@@ -48,7 +48,7 @@ fetch(
 
 //CONSTANTS
 const CORRECT_BONUS = 100;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
@@ -99,7 +99,7 @@ choices.forEach((choice) => {
         }
 
         selectedChoice.parentElement.classList.add(classToApply);
-
+  
         setTimeout(() => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
